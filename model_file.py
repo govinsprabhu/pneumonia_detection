@@ -1,6 +1,5 @@
-from tensorflow.keras.layers import Conv2D, Dense, Dropout, Flatten, BatchNormalization, MaxPool2D
-from tensorflow.keras.models import Sequential
-from tensorflow.python.framework import ops
+from keras.layers import Conv2D, Dense, Dropout, Flatten, BatchNormalization, MaxPool2D
+from keras.models import Sequential
 
 def create_model():
     model = Sequential()
