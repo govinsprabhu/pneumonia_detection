@@ -1,8 +1,8 @@
 flask==2.0.1
 # Render (Linux) uses standard tensorflow wheels; 2.15.0 not available in this env
-tensorflow==2.20.0
+tensorflow==2.15.0
 # TF 2.20.0 requires numpy>=1.26.0
-numpy>=1.26.0
+numpy>=1.23.5
 pillow==8.3.1
 werkzeug==2.0.1
 gunicorn==20.1.0
